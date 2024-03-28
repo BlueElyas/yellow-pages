@@ -69,5 +69,17 @@ h4{
 
 
 
+@media only screen (min-width:320px) and (max-width: 480px)  {
+  .white-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+    width: 60vw;
+  }
+  .gray-container{
+    width:80%;
+    overflow:hidden;
+  }
+}
 
 
