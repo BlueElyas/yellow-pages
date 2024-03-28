@@ -25,8 +25,9 @@ textarea::placeholder {
   padding: 15px;
   padding-top: 2px;
   padding-left: 20px;
-  width: 529px;
+  width: 650px;
   margin-top:5px;
+  margin-bottom: 5px
 }
 
 h4{

@@ -2,7 +2,7 @@ main{
   display: grid;
   grid-template-rows: repeat(2, 505px) ;
   grid-template-columns: repeat(3, 350px);
-  
+  gap: 5px
 }
 
 .contact-box{
