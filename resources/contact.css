@@ -1,6 +1,19 @@
 main{
   display: grid;
-  grid-template-rows: 1fr 1fr; 
+  grid-template-rows: repeat(2, 505px) ;
+  grid-template-columns: repeat(3, 1fr);
 }
 
+.contact-box{
+  display:block;
+  justify-self: start;
+  height: 500px;
+  grid-column: 2 / 3;
+}
 
+.map-box{
+  display:block;
+  justify-self:end;
+  grid-row: 2 / -1;
+  grid-column: 2 / 4;
+}
