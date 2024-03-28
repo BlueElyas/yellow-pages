@@ -27,7 +27,8 @@ textarea::placeholder {
   padding-left: 20px;
   width: 650px;
   margin-top:5px;
-  margin-bottom: 5px
+  margin-bottom: 5px;
+  max-width: 100%
 }
 
 h4{
@@ -66,7 +67,9 @@ h4{
   margin-bottom: 5px; 
 }
 
+img { 
 
+}
 
 
 
