@@ -19,10 +19,23 @@
 .nav-list a{
   padding:10px;
   text-decoration:none;
+  font-weight: bold;
+  color: black; 
+  
 }
 
 .nav-list a:hover {
   background-color: black; 
-  color: white; 
+  color: yellow; 
   padding: 15px;
 }
+
+.nav-list a:active {
+  background-color: black; 
+  color: yellow; 
+  padding: 10px;
+  justify-self: center;
+  align-self: center;
+}
+
+
