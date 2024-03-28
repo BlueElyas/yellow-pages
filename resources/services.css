@@ -36,13 +36,14 @@ table {
 
 .grid {
   display: grid;
-  grid-template-rows: 1fr 2fr 2fr 1fr 2fr;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 200px 450px 550px 250px 375px;
+  grid-template-columns: 200px 300px 400px;
 }
 
 .services-para {
   grid-row: 1;
   grid-column: 1 / span 3;
+  margin-bottom: 10px;
 }
 
 .candidates {
@@ -63,5 +64,17 @@ table {
 .lorem-2 {
   grid-row: 5;
   grid-column: 1 / 3;
+}
+
+.london-image {
+  display: block;
+  width: 500px;
+  height: 500px;
+  border: 20px solid black; 
+}
+
+.flex { 
+display: flex; 
+justify-content: center; 
 }
 
