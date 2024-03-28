@@ -1,0 +1,13 @@
+.view {
+  text-align: center;
+  background: #E3E6EC;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 5px 25px;
+  border: 1px solid gray;
+  margin: 5px;
+}
+
+.white-container td{
+  border-bottom:1px solid #454545;
+}
