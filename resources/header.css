@@ -1,6 +1,23 @@
-.header-image img { 
+/* .header-image img { 
   display: flex; 
   justify-content: center; 
   border: solid 5px black;
-  
 }
+
+.header-image {
+  display: flex;
+}
+ */
+
+.header-image {
+  display: flex;
+  border: solid 5px black;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+}
+
+/* .header-image img  {
+  width: 200px
+}
+ */
