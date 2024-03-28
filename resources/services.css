@@ -9,13 +9,29 @@
 }
 
 .white-container td{
-  border-bottom:1px solid #000000;
+  border-bottom:1px solid #00000066;
   text-align:left;
   padding-right:50px;
   
 }
 
-.white-container th{
+.white-container thead{
   text-align:left;
+  border-top:1px solid #00000066;
+  border-bottom:1px solid #00000066;
 }
 
+.white-container thead tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+table{
+  border-collapse: collapse;
+}
+
+
+.actions {
+  border-left: 1px ;
+}
