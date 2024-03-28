@@ -33,5 +33,34 @@ table{
 
 
 .actions {
-  border-left: 1px ;
+  border-left: 1px solid #00000066;
+  padding-left: 10px;
 }
+
+.grid { 
+  display: grid; 
+  grid-template-rows: 1fr 2fr 3fr 1fr 2fr; 
+  grid-template-columns: 1fr 2fr 1fr; 
+}
+
+.services-para { 
+  grid-row: 1; 
+  justify-self: 
+}
+
+.candidates { 
+ grid-row: 2; 
+}
+
+.picture { 
+grid-row: 3; 
+}
+
+.lorem-1 { 
+grid-row: 4; 
+}
+
+.lorem-2 { 
+grid-row: 5; 
+}
+
