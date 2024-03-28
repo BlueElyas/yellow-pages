@@ -1,0 +1,6 @@
+.header-image img { 
+  display: flex; 
+  justify-content: center; 
+  border: solid 5px black;
+  
+}
