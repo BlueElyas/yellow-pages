@@ -26,6 +26,7 @@ textarea::placeholder {
   padding-top: 2px;
   padding-left: 20px;
   width: 529px;
+  margin-top:5px;
 }
 
 h4{
@@ -61,7 +62,7 @@ h4{
   box-shadow: 0px 8px;
   padding-top: 2px;
   padding-left: 20px;
-  margin-bottom: 60px; 
+  margin-bottom: 5px; 
 }
 
 
